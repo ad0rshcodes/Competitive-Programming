@@ -16,13 +16,14 @@ int main()
     for (int i=0; i<n; i++)
     {
         cin >> operation;
+        
 
-        if (operation == "++x" || "x++")
+        if (operation == "++X" || operation == "X++")
         {
             x++;
         }
 
-        if (operation == "--x" || "x--")
+        else if (operation == "--X" || operation == "X--")
         {
             x--;
 
